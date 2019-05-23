@@ -1,0 +1,15 @@
+selain->palvelin: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+
+note over selain:
+Selain lähettää uuden
+muistiinpanon palvelimelle...
+end note
+
+palvelin-->selain: {message: "note created"}
+
+note over palvelin:
+... ja palvelin lähettää
+selaimelle json-muotoisen
+viestin uuden muistiinpanon
+onnistuneesta luonnista.
+end note
