@@ -8,12 +8,10 @@ palvelin-->selain: spa.js
 note over selain:
 Selain suorittaa js-koodin.
 Selaimella on oma lista
-muistiinpanoista, jonne se
-laittaa suoraan uuden
-muistiinpanon kun semmoinen
-talletetaan. SPA myös
-lähettää palvelimelle
-uuden mustiinpanon.
+muistiinpanoista, jonka se
+täyttää muistiinpanojen
+merkkijonoilla js-koodin
+suorituksen yhteydessä.
 end note
 
 selain->palvelin: HTTP GET https://fullstack-exampleapp.herokuapp.com/data.json
